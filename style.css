@@ -1,24 +1,28 @@
-body{
-    width: 50%;
-    margin: auto;
-    background-color: blue;
-    color: white;
-  }
-  .heading{
-    display: block;
-    margin: 1rem;
-    padding: 1rem;
-  }
-  .input{
-    width: 50%;
-    padding: 0.25rem;
-  }
-  .button{
-    display: block;
-    margin-top: 1rem;
-    background-color: aquamarine;
-    border-radius: 0.5rem;
-  }
-  .result{
-    color: white;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 5rem;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px;
+  padding: 1rem;
+}
+#check {
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+  border-color: whitesmoke;
+  background-color: burlywood;
+}
+#output {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
