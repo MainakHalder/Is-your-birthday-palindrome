@@ -21,8 +21,34 @@ h1 {
   border-radius: 0.25rem;
   border-color: whitesmoke;
   background-color: burlywood;
+  display: block;
 }
 #output {
   margin-top: 1rem;
   padding: 0.5rem;
+}
+.footer{
+  background-color: #334155;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: whitesmoke;
+  border-top-right-radius: 1rem;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
+.footer .link{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.footer .footer-header{
+  font-weight: bold;
+  font-size: large;
+}
+.footer ul{
+  padding-inline-start: 0px;
+}
+.footer ul li{
+  display: inline;
 }
